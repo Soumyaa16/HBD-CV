@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero-section {
+    background: url("https://wallpapers.com/images/hd/my-birthday-cake-on-pastel-pink-background-iacbvdwnfakr9l8g.jpg") no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #010f0e;
+    padding: 20px;
+}
+
+.hero-section h1 {
+    font-size: 5em;
+    color: #f07ab7;
+}
+
+.hero-section .small-message {
+    font-size: 1.5em;
+    margin-top: 8px;
+}
+
+.content {
+    padding: 40px 20px;
+    background-color: FFD1DC#f07ab7;
+    text-align: center;
+}
+
+.photo-gallery {
+    margin-bottom: 40px;
+}
+
+.photo-gallery h2 {
+    font-size: 6em;
+    color: #6c757d;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos img {
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+}
+
+.big-message {
+    background-color: #e9799e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.big-message h2 {
+    font-size: 4em;
+    color: #460b5c;
+    margin-bottom: 50px;
+}
+
+.big-message p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.photus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photus img {
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.photus img:hover {
+    transform: scale(1.05);
+}
+
+.video-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 2.5em;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.decorations {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.decorations img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.last h3{
+    font-size: 5em;
+    color: #f07ab7;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
